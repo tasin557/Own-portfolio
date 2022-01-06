@@ -1,0 +1,91 @@
+body{
+    font-family: 'Raleway', sans-serif;
+    font-family: 'Signika Negative', sans-serif;
+    color: rgb(195, 213, 231);
+    background-color: rgb(70, 67, 67);
+}
+h1{
+    font-size: 33px;
+    color: brown;
+}
+h2{
+    color: rgb(129, 91, 233);
+}
+section{
+    display: flex;
+    margin-bottom: 40px;
+} 
+.half-width{
+    width: 60%;
+    padding-left: 50px;
+}
+.half-width img{
+    margin-left: 200px;
+    width: 60%;
+}
+#name{
+    color: darkcyan;
+}
+.padding{
+    padding-top: 10%;
+    padding-right: 200px;
+}
+.Button{
+    text-decoration: none;
+    background-image: linear-gradient(skyblue,orange);
+    padding: 5px 20px;
+    font-weight: 700px;
+    border-radius: 10px;
+}
+.border{
+    border-left: 8px solid;
+    border-image: linear-gradient(brown, darkcyan);
+    border-image-slice: 1;
+}
+.one-third{
+    width: 33%;
+    padding-left: 70px;
+    padding-right: 20px;
+    background-color: rgb(128, 183, 219);
+    padding-left: 20px;
+    margin-right: 3%;
+    margin-left: 3%;
+    border-radius: 5px;
+}
+.one-third img{
+    width: 100%;
+}
+#contact{
+    text-align: center;
+    color: rgb(155, 177, 59);
+}
+footer{
+    margin-bottom: 150px;
+    text-align: center;
+}
+#top-banner{
+    background-image: url(images/shape-2.png);
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position-x: 50px;
+    background-position-y: 500px;
+}
+#Mid{
+    background-image: url(images/shape-8.png);
+    background-size: 800px;
+    background-repeat: no-repeat;
+    background-position-x: -600px;
+    background-position-y: 100px;
+}
+#mid-bottom{
+    background-image: url(images/shape-1.png);
+    background-repeat: no-repeat;
+    background-size: 200px;
+    background-position-x: 96%;
+    background-position-y: 50%;
+}
+#bottom{
+    background-image: url(images/dream-bg2.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
